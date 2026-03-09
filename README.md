@@ -8,6 +8,6 @@ num 3 = Sandbox
 esc = Toggle focus de la souris
 
 # Inputs Rail Shooter
-Arrow Left - Arrow Right = Rotation autour du rail
-Souris = Deplacement caméra
-Left Click = Tir
+Arrow Left - Arrow Right = Rotation autour du rail  
+Souris = Deplacement caméra  
+Left Click = Tir  
