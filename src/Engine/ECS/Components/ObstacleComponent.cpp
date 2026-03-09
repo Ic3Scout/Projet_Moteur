@@ -1,0 +1,1 @@
+#include "ObstacleComponent.h"

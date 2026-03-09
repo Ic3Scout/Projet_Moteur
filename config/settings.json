@@ -1,0 +1,116 @@
+{
+    "projects": {
+        "1F02133D-4DCC-5D90-205F-304D2B605DC6": {
+            "config-debug": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "config-release": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "dependencies": [
+                "792F16B8-70EC-4096-12B5-05312EA53D42",
+                "34FD2C0C-222C-36D3-38F7-42AF43CC3999",
+                "34DF322C-2E23-68D9-4E58-38A356602083"
+            ],
+            "dependents": [],
+            "name": "ProjetMoteur",
+            "property-lib": false,
+            "property-pch": false,
+            "property-vcpkg": false,
+            "property-window": true
+        },
+        "34DF322C-2E23-68D9-4E58-38A356602083": {
+            "config-debug": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "config-release": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "dependencies": [
+                "34FD2C0C-222C-36D3-38F7-42AF43CC3999"
+            ],
+            "dependents": [
+                "1F02133D-4DCC-5D90-205F-304D2B605DC6",
+                "792F16B8-70EC-4096-12B5-05312EA53D42"
+            ],
+            "name": "Render",
+            "property-lib": true,
+            "property-pch": false,
+            "property-vcpkg": false,
+            "property-window": false
+        },
+        "34FD2C0C-222C-36D3-38F7-42AF43CC3999": {
+            "config-debug": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "config-release": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "dependencies": [],
+            "dependents": [
+                "1F02133D-4DCC-5D90-205F-304D2B605DC6",
+                "34DF322C-2E23-68D9-4E58-38A356602083",
+                "792F16B8-70EC-4096-12B5-05312EA53D42"
+            ],
+            "name": "Core",
+            "property-lib": true,
+            "property-pch": false,
+            "property-vcpkg": false,
+            "property-window": false
+        },
+        "792F16B8-70EC-4096-12B5-05312EA53D42": {
+            "config-debug": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "config-release": {
+                "additionalDependencies": [],
+                "additionalIncludeDirectories": [],
+                "additionalLibraryDirectories": [],
+                "preprocessorDefinitions": []
+            },
+            "dependencies": [
+                "34FD2C0C-222C-36D3-38F7-42AF43CC3999",
+                "34DF322C-2E23-68D9-4E58-38A356602083"
+            ],
+            "dependents": [
+                "1F02133D-4DCC-5D90-205F-304D2B605DC6"
+            ],
+            "name": "Engine",
+            "property-lib": true,
+            "property-pch": false,
+            "property-vcpkg": false,
+            "property-window": false
+        }
+    },
+    "projects_name_to_guid": {
+        "Core": "34FD2C0C-222C-36D3-38F7-42AF43CC3999",
+        "Engine": "792F16B8-70EC-4096-12B5-05312EA53D42",
+        "ProjetMoteur": "1F02133D-4DCC-5D90-205F-304D2B605DC6",
+        "Render": "34DF322C-2E23-68D9-4E58-38A356602083"
+    },
+    "solution_guid": "20634907-0A26-6CD5-0D14-6420458C03C9",
+    "solution_name": "ProjetMoteur",
+    "startup_project": "",
+    "version": "2.0"
+}
